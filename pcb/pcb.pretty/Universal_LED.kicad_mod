@@ -1,4 +1,4 @@
-(module Universal_LED (layer F.Cu) (tedit 5FB35F51)
+(module Universal_LED (layer F.Cu) (tedit 5FB35FD1)
   (attr smd)
   (fp_text reference REF** (at 0 -5.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -6,7 +6,7 @@
   (fp_text value universal_LED (at 0 3.5) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 2 smd custom (at -2 -1) (size 2 2) (layers F.Cu F.Paste F.Mask)
+  (pad 1 smd custom (at -2 -1) (size 2 2) (layers F.Cu F.Paste F.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor rect))
     (primitives
@@ -25,7 +25,7 @@
          (xy 0.288421 -3.161789) (xy 0.434488 -3.218906) (xy 0.582456 -3.270897) (xy 0.732146 -3.317701) (xy 0.883376 -3.35926)
          (xy 1.035963 -3.395524) (xy 1.18972 -3.426448) (xy 1.344462 -3.451996) (xy 1.5 -3.472135)) (width 0))
     ))
-  (pad 1 smd custom (at 2 -1) (size 2 2) (layers F.Cu F.Paste F.Mask)
+  (pad 2 smd custom (at 2 -1) (size 2 2) (layers F.Cu F.Paste F.Mask)
     (zone_connect 0)
     (options (clearance outline) (anchor rect))
     (primitives
