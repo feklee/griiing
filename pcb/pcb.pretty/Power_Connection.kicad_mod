@@ -1,0 +1,24 @@
+(module Power_Connection (layer F.Cu) (tedit 5FB35C01)
+  (fp_text reference REF** (at 0 -5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Power_Connection (at 0 1) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd custom (at 1.5 -1.5) (size 2 2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy 3 0) (xy 3 1.5) (xy -1 1.5) (xy -1 -2.5) (xy 0.5 -2.5)
+) (width 0.1))
+    ))
+  (pad 2 smd custom (at -1.5 -1.5) (size 2 2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 -2.5) (xy 1 -2.5) (xy 1 1.5) (xy -3 1.5) (xy -3 0)
+) (width 0.1))
+    ))
+)
