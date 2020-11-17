@@ -1,4 +1,4 @@
-(module universal_LED (layer F.Cu) (tedit 5FB261F9)
+(module Universal_LED (layer F.Cu) (tedit 5FB3573D)
   (attr smd)
   (fp_text reference REF** (at 0 -5.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
