@@ -1,6 +1,8 @@
 The idea for the GIIIRNG is that it’s a ring light on a PCB that
 screws into the ring mount of the Ricoh GRⅢ.
 
+![Rendering of a first version of the board](board.jpg)
+
 For an experimental LED flash tested with the GRⅢ, see my repo
 [led-flash][1].
 
